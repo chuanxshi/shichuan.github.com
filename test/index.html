@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Accordion - Default functionality</title>
+	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.23.custom.css">
+	<script src="js/jquery-1.8.0.min.js"></script>
+	<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script>
+	$(function() {
+		$( "#accordion" ).accordion();
+	});
+	</script>
+	<style>
+	#accordion table td img {
+		width:100px;
+		height: 100px;
+	}
+
+	#accordion table td {
+		text-align: center;
+	}
+
+	#road table td img {
+		width:100px;
+	}
+	#main {
+		width:825px;
+		height:618px;
+		border-top: 1px solid white;
+		background: url("img/background.png");
+	}
+	.demo {
+		margin: 0px 70px;
+		margin-top:42px;
+		padding: 10px;
+		background: white;
+	}
+	</style>
+</head>
+<body>
+<div id="main">
+
+<div class="demo">
+
+<div id="accordion">
+	<h3><a href="#">【1.新娘手捧花】</a></h3>
+	<div>
+		<table>
+			<tr>
+				<td><img src="img/f1.jpg" /></td>
+				<td><img src="img/f2.jpg" /></td>
+				<td><img src="img/f3.jpg" /></td>
+				<td><img src="img/f4.jpg" /></td>
+				<td><img src="img/f5.jpg" /></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="flower" /></td>
+				<td><input type="radio" name="flower" /></td>
+				<td><input type="radio" name="flower" /></td>
+				<td><input type="radio" name="flower" /></td>
+				<td><input type="radio" name="flower" /></td>
+			</tr>
+		</table>
+	</div>
+	<h3><a href="#">【2.舞台灯光】</a></h3>
+	<div>
+		<table>
+			<tr>
+				<td><img src="img/l1.jpg" /></td>
+				<td><img src="img/l2.jpg" /></td>
+				<td><img src="img/l3.jpg" /></td>
+				<td><img src="img/l4.jpg" /></td>
+				<td><img src="img/l5.jpg" /></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="l" /></td>
+				<td><input type="radio" name="l" /></td>
+				<td><input type="radio" name="l" /></td>
+				<td><input type="radio" name="l" /></td>
+				<td><input type="radio" name="l" /></td>
+			</tr>
+		</table>
+	</div>
+	<h3><a href="#">【4.仪式亭设计】</a></h3>
+	<div>
+		<table>
+			<tr>
+				<td><img src="img/ce1.jpg" /></td>
+				<td><img src="img/ce2.jpg" /></td>
+				<td><img src="img/ce3.jpg" /></td>
+				<td><img src="img/ce4.jpg" /></td>
+				<td><img src="img/ce5.jpg" /></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="ce" /></td>
+				<td><input type="radio" name="ce" /></td>
+				<td><input type="radio" name="ce" /></td>
+				<td><input type="radio" name="ce" /></td>
+				<td><input type="radio" name="ce" /></td>
+			</tr>
+		</table>
+	</div>
+	<h3><a href="#">【5.路引】</a></h3>
+	<div id="road">
+		<table>
+			<tr>
+				<td><img src="img/r1.jpg" /></td>
+				<td><img src="img/r2.jpg" /></td>
+				<td><img src="img/r3.jpg" /></td>
+				<td><img src="img/r4.jpg" /></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="road" /></td>
+				<td><input type="radio" name="road" /></td>
+				<td><input type="radio" name="road" /></td>
+				<td><input type="radio" name="road" /></td>
+			</tr>
+		</table>
+	</div>
+	<h3><a href="#">【5.签到台】</a></h3>
+	<div id="road">
+		<table>
+			<tr>
+				<td><img src="img/c1.jpg" /></td>
+				<td><img src="img/c2.jpg" /></td>
+				<td><img src="img/c3.jpg" /></td>
+				<td><img src="img/c4.jpg" /></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="check" /></td>
+				<td><input type="radio" name="check" /></td>
+				<td><input type="radio" name="check" /></td>
+				<td><input type="radio" name="check" /></td>
+			</tr>
+		</table>
+	</div>
+	<h3><a href="#">【提交】</a></h3>
+	
+	<div id="road">
+		<p>提交后，我们的策划师会根据您的要求制定一份量身定做的婚礼计划。</p>
+		<table>
+			<tr>
+				<td>姓名：</td><td><input type="text" /></td>
+			</tr>
+			<tr>
+				<td>邮箱：</td><td><input type="text" /></td>
+			</tr>
+			<tr>
+				<td>联系电话：</td><td><input type="text" /></td>
+			</tr>
+		</table>
+		<button>提交</button>
+		<button>重置</button> 
+	</div>
+
+</div>
+
+</div><!-- End demo -->
+</div>
+
+
+</body>
+</html>
